@@ -9,7 +9,7 @@ function WorkoutPlan() {
 
   return (
     <div>
-      <h2>Workout Routine</h2>
+      <h2>Daily Workout Routine</h2>
       <ul>
         {workouts.map((workout, index) => (
           <li key={index}>
