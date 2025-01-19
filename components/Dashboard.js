@@ -2,6 +2,8 @@ import React from "react";
 import MealPlan from "./MealPlan";
 import WorkoutPlan from "./WorkoutPlan";
 import StreakChart from "./StreakChart";
+<!-- import StreakChart from "./StreakChart"; --/>
+
 
 function Dashboard() {
   return (
