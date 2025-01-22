@@ -1,1 +1,1 @@
-print("file 3")
+print("file for test - 3")
