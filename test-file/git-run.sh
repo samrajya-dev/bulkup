@@ -5,6 +5,7 @@ do
 	filename="file$i.txt"
 	touch "$filename"
 	git add "$filename"
-	git commit -m "Touched $filename on $(date)"
+	git commit -m "Added $filename on $(date)"
 	rm "$filename"
+	git commit -am "Removed $filename"
 done
