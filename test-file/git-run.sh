@@ -6,4 +6,5 @@ do
 	touch "$filename"
 	git add "$filename"
 	git commit -m "Touched $filename on $(date)"
+	rm "$filename"
 done
