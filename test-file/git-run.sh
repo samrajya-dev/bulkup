@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {01..15}
+for i in {01..5}
 do
 	filename="file$i.txt"
 	touch "$filename"
