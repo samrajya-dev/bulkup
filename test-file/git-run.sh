@@ -4,5 +4,6 @@ for i in {01..15}
 do
 	filename="file$i.txt"
 	touch "$filename"
-	gitac "Touched $filename on $(date)"
+	git add "$filename"
+	git commit -m "Touched $filename on $(date)"
 done
